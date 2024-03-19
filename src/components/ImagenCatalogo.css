@@ -1,0 +1,63 @@
+.imagenProyecto {
+    display: none;
+}
+
+.imagenProyectoAbierto {
+    width: 100%;
+    height: 100vh;
+    background-color: #2424242a;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagenModal {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: oldlace;
+    border-radius: 15px;
+    position: relative;
+}
+
+.imagenModal img {
+    width: 100%;
+    height: auto;
+    cursor: default;
+    border-radius: 15px;
+}
+
+.imagenModal button {
+    position: absolute;
+    /* Establecer posición absoluta */
+    top: 8px;
+    /* Establecer distancia de 10px desde la parte inferior */
+    right: 2%;
+    /* Establecer margen izquierdo y derecho para centrar el botón */
+    cursor: pointer;
+    color: #1E82B9;
+    border: none;
+    border-radius: 16px;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    box-shadow:
+        0px 5px 8px 0px rgba(0, 0, 0, 0.28),
+        0px 1px 14px 0px rgba(0, 0, 0, 0.28);
+    transform: translateY(0px);
+}
+
+.imagenModal button:hover {
+    border: 1px solid #1E82B9;
+    background-color: white;
+    color: #1E82B9;
+}
+
+.imagenModal button:active {
+    transform: translateY(4px);
+}

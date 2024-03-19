@@ -1,0 +1,17 @@
+
+.slideEmpresas{
+    background-color:  #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.slideEmpresas img{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 2px 4px 12px rgba(7, 26, 36, 0.4);
+}

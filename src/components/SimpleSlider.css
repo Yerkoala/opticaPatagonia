@@ -1,0 +1,167 @@
+.sliderContainer {
+    margin-top: 110px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+
+}
+
+.divSlider {
+    width: 69%;
+    height: 72%;
+    margin-bottom: 0;
+}
+
+.slide img {
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+.seccionInfo {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    background-color: #f0f7f885;
+}
+
+.seccionTarjetas {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    height: 360px;
+    margin-bottom: 30px;
+}
+
+.tarjetaHome {
+    margin-top: 40px;
+    background-color: #fff;
+    width: 350px;
+    height: 290px;
+    border-radius: 15px;
+    box-shadow: 2px 4px 12px rgba(30, 130, 185, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding: 15px;
+}
+
+.tarjetaHome h3 {
+    text-align: center;
+    color: #13293D;
+}
+
+.tarjetaHome p{
+    text-align: justify;
+    color: #3D3D3D;
+
+}
+
+.tarjetaHome img {
+    width: auto;
+    height: 100px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+
+.seccionInfoNosotros {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.seccionInfoNosotrosIzquierda {
+    width: 40%;
+    color: #3D3D3D;
+}
+
+.seccionInfoNosotrosIzquierda p {
+    text-align: justify;
+    padding-right: 40px;
+}
+
+.seccionInfoNosotrosIzquierda h1 {
+    margin-bottom: 30px;
+}
+
+
+.seccionInfoNosotrosDerecha img {
+    width: auto;
+    height: 350px;
+    border-radius: 15px;
+    box-shadow: 2px 4px 12px rgba(30, 130, 185, 0.4);
+}
+
+@media only screen and (max-width: 920px) {
+    .sliderContainer {
+        margin-top: 70px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 0;   
+    }
+    
+    .divSlider {
+        width: 95%;
+        height: auto;
+    }
+    
+    .slide img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .seccionTarjetas {
+        gap: 5px;
+        margin-bottom: 0;
+        height: 280px;
+    }
+
+    .tarjetaHome {
+        width: 150px;
+        height: 250px;
+        align-items: center;
+        padding: 5px;
+    }
+
+    .tarjetaHome h3 {
+        font-size: 15px;
+    }
+
+    .tarjetaHome p {
+        font-size: 10px;
+    }
+
+    .tarjetaHome img {
+        width: 70%;
+        height: auto;
+    }
+
+
+    .seccionInfoNosotros {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0px;
+        margin-top: 40px;
+    }
+
+    .seccionInfoNosotrosIzquierda {
+        width: 100%;
+        text-align: center;
+    }
+
+    .seccionInfoNosotrosIzquierda p {
+        text-align: justify;
+        padding: 0 20px;
+    }
+
+    .seccionInfoNosotrosDerecha{
+        display: flex;
+        justify-content: center;
+    }
+    .seccionInfoNosotrosDerecha img {
+        width: 90%;
+        height: auto;
+    }
+}

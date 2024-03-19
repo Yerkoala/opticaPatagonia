@@ -1,0 +1,128 @@
+.trabajaConNosotros {
+	width: 100%;
+	height: 290px;
+}
+
+.trabajaConNosotrosContainer {
+	display: flex;
+	padding: 0 25px;
+	height: 100%;
+	background:
+		linear-gradient(#002e47c7, #002e47c7),
+		/* Fondo azulado con opacidad */
+		url('../assets/img/trabajaConNosotros.jpg') center/cover;
+	/* Imagen de fondo */
+	gap: 10px;
+}
+
+.trabajaConNosotrosTexto {
+	width: 60%;
+	height: 100%;
+	color: aliceblue;
+	padding: 19px 5px;
+}
+
+.trabajaConNosotrosFormulario {
+	width: 40%;
+	height: 100%;
+	background-color: rgba(255, 255, 255, 0.753);
+	border-radius: 3px;
+	padding: 20px 40px;
+	position: relative;
+	
+}
+
+.input-container {
+	position: relative;
+	margin-bottom: 25px;
+}
+
+.input-container label {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	font-size: 16px;
+	color: #002e47;
+	transition: all 0.5s ease-in-out;
+	pointer-events: none;
+}
+
+.input-container input {
+	border: 0;
+	border-bottom: 1px solid #555;
+	background: transparent;
+	width: 100%;
+	padding: 8px 0 5px 0;
+	font-size: 16px;
+	color: #002e47;
+}
+
+.input-container input:focus {
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #1e82b9;
+}
+
+.input-container input:focus~label,
+.input-container input:valid~label {
+	top: -12px;
+	font-size: 12px;
+	color: #1e82b9;
+}
+
+.btn {
+	color: #fff;
+	outline: none;
+	border: 0;
+	color: #fff;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	margin-top: 10px;
+	border-radius: 2px;
+	cursor: pointer;
+	position: relative;
+}
+
+.btn:hover{
+	color: #1e82b9 !important;
+}
+
+.muchasGracias{
+	position: absolute;
+	color: red;
+	z-index: 9999;
+	bottom: 8px;
+	left: 140px;
+}
+
+@media only screen and (max-width: 920px) {
+	.trabajaConNosotros {
+		height: 850px;
+	}
+	.trabajaConNosotrosContainer {
+		display: flex;
+		flex-direction: column;
+		gap: 0;
+	}
+	.trabajaConNosotrosTexto {
+		width: 100%;
+		color: aliceblue;
+		padding: 19px 5px;
+	}
+	.trabajaConNosotrosTexto p{
+		text-align: justify;
+	}
+	
+	.trabajaConNosotrosFormulario {
+		width: 100%;
+		background-color: rgba(255, 255, 255, 0.753);
+		border-radius: 15px;
+		border-bottom-left-radius: 0;
+		border-bottom-right-radius: 0;
+	}
+
+	.muchasGracias{
+		bottom: 18px;
+		left: 140px;
+	}
+}

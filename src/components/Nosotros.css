@@ -1,0 +1,121 @@
+.nosotrosInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 70px;
+}
+
+.nosotrosInfoIzquierda {
+    width: 40%;
+    color: #3D3D3D;
+}
+
+.nosotrosInfoIzquierda h1 {
+    margin-bottom: 30px;
+    color: #13293D;
+}
+
+.nosotrosInfoIzquierda p {
+    text-align: justify;
+}
+
+.nosotrosInfoDerecha img {
+    width: auto;
+    height: 350px;
+    border-radius: 15px;
+    box-shadow: 2px 4px 12px rgba(30, 130, 185, 0.4);
+}
+
+.nuestrosProfesionales {
+    background-color: #FAFEFF;
+}
+
+.nuestrosProfesionales h1 {
+    color: #13293D;
+    padding-left: 13%;
+    margin-bottom: 30px;
+    padding-top: 25px;
+}
+
+.profesionalesContainer {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-bottom: 30px;
+}
+
+.profesionalesTarjeta {
+    width: 250px;
+    position: relative;
+    /* Agrega posición relativa al contenedor principal */
+    border-radius: 15px;
+    box-shadow: 2px 4px 8px rgba(17, 66, 92, 0.2);
+}
+
+.profesionalesTarjeta img {
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.tarjetaInfo {
+    background-color: #fff;
+    position: absolute;
+    /* Agrega posición absoluta al contenedor de información */
+    bottom: 0;
+    /* Coloca el contenedor en la parte inferior del contenedor principal */
+    width: 100%;
+    /* Asegura que el ancho del contenedor sea del 100% del contenedor principal */
+    border-radius: 15px;
+    text-align: center;
+}
+
+.tarjetaInfo h5 {
+    padding-top: 10px;
+    color: #13293D;
+}
+
+.tarjetaInfo p {
+    margin: 5px;
+
+}
+
+
+@media only screen and (max-width: 920px) {
+    .nosotrosInfo {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 40px;
+    }
+
+    .nosotrosInfoIzquierda {
+        width: 90%;
+    }
+
+    .nosotrosInfoIzquierda h1 {
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+
+    .profesionalesContainer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        padding-bottom: 20px;
+    }
+
+    .profesionalesTarjeta {
+        width: 185px;
+    }
+
+    .nuestrosProfesionales h1 {
+        text-align: center;
+        padding-left: 0;
+        margin-bottom: 30px;
+        padding-top: 25px;
+    }
+}

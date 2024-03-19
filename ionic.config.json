@@ -1,0 +1,7 @@
+{
+  "name": "opticapatagonia",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "custom"
+}

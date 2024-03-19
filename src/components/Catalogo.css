@@ -1,0 +1,77 @@
+.catalogo {
+    background-color: #FAFEFF;
+}
+
+.catalogo h1 {
+    color: #13293D;
+    padding-left: 13%;
+    margin-bottom: 30px;
+    padding-top: 25px;
+}
+
+.opcionDeCompra {
+    margin-top: 20px;
+    padding-left: 13%;
+
+}
+
+.catalogoContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0 30px;
+    justify-content: center;
+}
+
+.imagenContainer {
+    width: 300px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+
+.catalogoTarjeta {
+    width: 300px;
+    height: 250px;
+    position: relative;
+    /* Agrega posición relativa al contenedor principal */
+    border-radius: 15px;
+    box-shadow: 2px 4px 8px rgba(17, 66, 92, 0.2);
+}
+
+
+.catalogoTarjetaInfo {
+    background-color: #ebfdfb;
+    position: absolute;
+    /* Agrega posición absoluta al contenedor de información */
+    bottom: 0;
+    /* Coloca el contenedor en la parte inferior del contenedor principal */
+    width: 100%;
+    height: 50px;
+    /* Asegura que el ancho del contenedor sea del 100% del contenedor principal */
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.catalogoTarjetaInfo p {
+    margin: 0;
+    padding: 0 5px;
+
+}
+
+@media only screen and (max-width: 920px) {
+    .opcionDeCompra {
+        text-align: center;
+        padding: 0 15px;
+        font-size: 1.5rem;
+    }
+
+    .catalogo h1 {
+        text-align: center;
+        padding-left: 0;
+        padding-top: 45px;
+    }
+}

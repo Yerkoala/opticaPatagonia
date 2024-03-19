@@ -1,0 +1,45 @@
+/* WhatsAppButton.css */
+.whatsapp-container {
+    position: fixed;
+    bottom: 36px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .response-time {
+    width: 130px;
+    background-color: #25d366;
+    color: #fff;
+    padding: 8px;
+    border-radius: 8px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+  }
+  
+  .response-time p {
+    text-align: center;
+    font-size: 0.67rem;
+    margin: 0;
+  }
+  
+  .whatsapp-button {
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  
+    &:hover {
+      background-color: #128c7e;
+    }
+  }
+
+  
+@media only screen and (max-width: 920px) {
+  
+}
+

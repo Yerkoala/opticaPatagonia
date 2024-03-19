@@ -1,0 +1,86 @@
+.footerStyle {
+    padding-top: 20px;
+    height: 315px;
+    background: linear-gradient(to right, #162b64, #1e82b9);
+    margin-Top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.textosFooter{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    gap: 20px;
+    margin-top: 20px;
+}
+.footer-link {
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: 0.8px;
+    padding: 0 25px;
+    font-size: 18px;
+    opacity: 0.75;
+}
+
+.footer-link:hover,
+.footer-link.active {
+    opacity: 1;
+}
+
+.imagenFooter{
+    max-width: 55%;
+    height: auto;
+    object-fit: contain;
+}
+.imagenWebpay{
+    max-width: 70%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 15px;
+    box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.4);
+}
+
+.footerColUno{
+    width: 350px;
+    margin-left: 20px;
+}
+
+.footerColUno p{
+    color:#fff;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+}
+
+.footerColTres{
+    width: 500px;
+}
+
+.copyright{
+    color: #fff
+}
+
+@media only screen and (max-width: 920px) {
+    .footerStyle {
+        padding-top: 20px;
+        height: 615px;
+        margin-Top: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .mapaDelSitio{
+        display: none;
+    }
+
+    .footerColTres{
+    margin-left: 20px;
+
+    }
+
+    .copyright{
+        font-size: 0.84rem;
+    }
+}

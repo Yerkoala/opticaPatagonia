@@ -1,0 +1,115 @@
+.contactoUbicacion {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 70px;
+
+}
+
+.contactoInfoIzquierda {
+    width: 40%;
+    color: #3D3D3D;
+}
+
+.contactoInfoIzquierda h1 {
+    margin-bottom: 30px;
+    color: #13293D;
+}
+
+.contactoInfoIzquierda p{
+    text-align: justify;
+}
+
+.contactoInfoDerecha img {
+    width: auto;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 2px 4px 12px rgba(30, 130, 185, 0.4);
+}
+
+.contactoInfoContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.contactoInfoContainer img{
+    width: 50%;
+    border-radius: 15px;
+    box-shadow: 2px 4px 12px rgba(9, 32, 44, 0.4);
+    cursor: pointer;
+}
+
+.contactoDato{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    margin-bottom: 7px;
+    gap: 8px;
+}
+
+.contactoDato h5{
+    margin: 0;
+    padding: 0;
+    color:#374957;
+}
+
+.contactoInfoTextos{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contactoDatosIconos{
+    display: flex;
+    gap: 20px;
+    width: 100px;
+}
+
+.contactoDatosIconos img{
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 920px) {
+    .contactoUbicacion {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 15px;
+    
+    }
+    
+    .contactoInfoIzquierda {
+        width: 100%;
+    }
+    
+    .contactoInfoIzquierda h1 {
+        text-align: center;
+    }
+
+    .contactoInfoDerecha img {
+        width: 100%;
+        height: auto;
+    }
+
+
+    .contactoInfoContainer{
+        flex-direction: column;
+    }
+    
+    .contactoInfoContainer img{
+        width: 97%;
+        border-radius: 15px;
+        box-shadow: 2px 4px 12px rgba(9, 32, 44, 0.4);
+        cursor: pointer;
+    }
+
+    .contactoDatosIconos img{
+        width: 50%;
+    }
+
+}

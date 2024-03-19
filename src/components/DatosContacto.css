@@ -1,0 +1,28 @@
+.datosContactoContainer{
+    position: fixed;
+    top: 4px;
+    left: 19.3%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    z-index: 9999999;
+}
+
+.datosContactoContainer p{
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    color: #13293D;
+
+}
+
+@media only screen and (max-width: 920px) {
+    .datosContactoContainer{
+        gap: 10px;
+        left: 17%;
+        top: 12px;
+    }
+    .datosContactoContainer p{
+        font-size: 10px;
+    }
+}

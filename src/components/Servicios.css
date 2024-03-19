@@ -1,0 +1,210 @@
+.servicios{
+    margin-bottom: 50px;
+}
+.serviciosIntro h3{
+    text-align: center;
+    color: #1E82B9;
+    margin-bottom: 30px;
+}
+
+.serviciosIntroTextos{
+    display: flex;
+    justify-content: center;
+    padding-left: 8%;
+    padding-right: 8%;
+    gap:50px;
+}
+
+.serviciosIntroTextos p{
+    text-align: justify;
+}
+
+.todosLosServicios {
+    background-color: #fff;
+}
+
+.todosLosServicios h1{
+    color: #13293D;
+    padding-left: 13%;
+    margin-bottom: 30px;
+    padding-top: 25px;
+}
+
+
+.serviciosContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+    padding-left: 8%;
+    padding-right: 8%;
+    gap: 50px;
+}
+
+.serviciosTarjeta {
+    width: 300px;
+    height: 420px;
+    position: relative;
+    /* Agrega posición relativa al contenedor principal */
+    border-radius: 15px;
+    box-shadow: 2px 4px 8px rgba(17, 66, 92, 0.2);
+}
+
+.serviciosTarjeta:hover{
+    scale: 1.1;
+}
+
+.serviciosTarjeta img {
+    border-radius: 15px;
+}
+
+.serviciosTarjetaInfo {
+    background-color: #fff;
+    position: absolute;
+    /* Agrega posición absoluta al contenedor de información */
+    bottom: 0;
+    /* Coloca el contenedor en la parte inferior del contenedor principal */
+    width: 100%;
+    height: 130px;
+    /* Asegura que el ancho del contenedor sea del 100% del contenedor principal */
+    border-radius: 15px;
+    text-align: center;
+
+}
+
+.serviciosTarjetaInfo h5 {
+    padding-top: 10px;
+    color: #13293D;
+}
+
+.serviciosTarjetaInfo p{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 12.5px;
+    text-align: justify;
+}
+
+.servicioAgenda{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: #f0f9fc;
+    margin-bottom: 50px;
+}
+
+.servicioAgenda img{
+    width: 400px;
+    border-radius: 15px;
+}
+
+.servicioTextoBoton{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.servicioTextoBoton button{
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #1e82b9;
+    color: #FAFEFF;
+}
+
+.servicioTextoBoton button:hover{
+    background-color: #FAFEFF;
+    color: #1e82b9;
+    border: 1px solid #1e82b9;
+}
+
+/* .serviciosContainerSlider{
+    display: flex;
+    justify-content: center;
+} */
+
+.serviciosContainerSlider{
+    padding: 0 350px;
+}
+
+
+@media only screen and (max-width: 920px) {
+    .serviciosIntroTextos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 5%;
+        padding-right: 5%;
+        gap:10px;
+    }
+
+    .serviciosContainer {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-bottom: 30px;
+        gap: 10px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .serviciosTarjeta {
+        width: 182px;
+        height: 280px;
+    }
+
+    .serviciosTarjetaInfo h5{
+        font-size: 20px;
+    }
+        
+    
+    .serviciosTarjetaInfo p{
+        padding-left: 7px;
+        padding-right: 7px;
+        font-size: 9px;
+        text-align: justify;
+    }
+    
+    .servicioAgenda{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+        background-color: #f0f9fc;
+    }
+    
+    .servicioAgenda img{
+        width: 230px;
+        border-radius: 15px;
+    }
+    
+    .servicioTextoBoton{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .servicioTextoBoton h1{
+        font-size: 19px;
+    }
+    .servicioTextoBoton button{
+        border-radius: 15px;
+        padding: 4px;
+        background-color: #1e82b9;
+        color: #FAFEFF;
+    }
+    
+    .servicioTextoBoton button:hover{
+        background-color: #1e82b9;
+        color: #FAFEFF;
+    }
+
+    .serviciosContainerSlider{
+        padding: 0 25px;
+    }
+
+    .todosLosServicios h1{
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+}

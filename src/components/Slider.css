@@ -1,0 +1,38 @@
+.slider {
+    width: 100%;
+    margin-top: 100px;
+    position: relative;
+  }
+  
+.slider img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Opcional: Agrega sombra a las imágenes */
+  }
+  
+  .slider button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    padding: 8px 16px;
+    background-color: #1e82b9;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border-radius: 4px;
+  }
+  
+  .slider button:hover {
+    background-color: #155a81; /* Cambia el color al poner el cursor sobre los botones */
+  }
+  
+  .slider button:first-child {
+    left: 0;
+  }
+  
+  .slider button:last-child {
+    right: 0;
+  }
+  
