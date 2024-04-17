@@ -71,7 +71,7 @@ const TrabajaConNosotros = () => {
                             <input name='mensaje' type="text" placeholder='Cuentanos un poco sobre ti o tu empresa' />
                             <label>Mensaje</label>
                         </div>
-                        <div >
+                        <div className='inputArchivos'>
                             <input
                                 name="archivo"
                                 type="file"

@@ -38,8 +38,8 @@ export default function SimpleSlider() {
   };
 
   return (
-    <div>
-      <div className="sliderContainer" id="home">
+    <div id="home">
+      <div className="sliderContainer" >
         <div className="divSlider">
           <Slider ref={sliderRef} {...settings}>
             <div className="slide">
@@ -87,6 +87,7 @@ export default function SimpleSlider() {
           </Slider>
         </div>
       </div>
+
       <div className="seccionInfo">
         <div className="seccionTarjetas">
           <div className="tarjetaHome">
@@ -107,8 +108,8 @@ export default function SimpleSlider() {
             <p>Nuestra óptica presenta una selección única de estilos y opciones para satisfacer tanto tus necesidades visuales como tu sentido estético.</p>
 
           </div>
-
         </div>
+
         <div className="seccionInfoNosotros">
           <div className="seccionInfoNosotrosIzquierda">
             <h1>Todo en <br /> un solo lugar</h1>

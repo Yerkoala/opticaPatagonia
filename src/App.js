@@ -15,7 +15,7 @@ import DatosContacto from './components/DatosContacto';
 function App() {
 
   return (
-    <div className="App">
+    <>
       <DatosContacto/>
       <NavBar/>
       <SimpleSlider/>
@@ -25,7 +25,7 @@ function App() {
       <Catalogo/>
       <Footer/>
       <WhatsAppButton/>
-    </div>
+    </>
   );
 }
 

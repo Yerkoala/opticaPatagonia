@@ -5,6 +5,8 @@
     margin-Top: 100px;
     display: flex;
     justify-content: space-around;
+    overflow: hidden;
+    width: 100vw;
 }
 
 .textosFooter{
